@@ -31,7 +31,7 @@ Please (do your best to) stick to [Google's C++ style guide](https://google.gith
 
 ## Lidar and Radar Fusion Pipline
 
-![Lidar and Radar Fusion Pipline](/img/sensor_fusion_pipeline.PNG =100x)
+![Lidar and Radar Fusion Pipline](/img/sensor_fusion_pipeline.PNG)
 *Lidar and Radar Fusion Pipline*
 
 ## Evaluation (RMSE)
