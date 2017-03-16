@@ -31,9 +31,7 @@ Please (do your best to) stick to [Google's C++ style guide](https://google.gith
 
 ## Lidar and Radar Fusion Pipline
 
-![Lidar and Radar Fusion Pipline](/img/sensor_fusion_pipeline.PNG)
-
-<img src="https://github.com/alexxucui/CarND-Extended-Kalman-Filter-Project/blob/master/img/sensor_fusion_pipeline.PNG" width="200">
+<img src="https://github.com/alexxucui/CarND-Extended-Kalman-Filter-Project/blob/master/img/sensor_fusion_pipeline.PNG" width="500">
 
 ## Evaluation (RMSE)
 
