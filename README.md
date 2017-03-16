@@ -1,4 +1,4 @@
-# Extended Kalman Filter Project Starter Code
+# Extended Kalman Filter Project
 Self-Driving Car Engineer Nanodegree Program
 
 ---
@@ -29,7 +29,7 @@ Self-Driving Car Engineer Nanodegree Program
 
 Please (do your best to) stick to [Google's C++ style guide](https://google.github.io/styleguide/cppguide.html).
 
-## Lidar and Radar Fusion Pipline
+## Lidar and Radar Data Fusion Pipline
 
 <img src="https://github.com/alexxucui/CarND-Extended-Kalman-Filter-Project/blob/master/img/sensor_fusion_pipeline.PNG" width="700">
 
