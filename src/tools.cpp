@@ -1,6 +1,7 @@
 #include <iostream>
 #include "tools.h"
 
+using namespace std;
 using Eigen::VectorXd;
 using Eigen::MatrixXd;
 using std::vector;
@@ -28,7 +29,7 @@ VectorXd Tools::CalculateRMSE(const vector<VectorXd> &estimations,
   }
 
   //accumulate squared residuals
-  for(unsigned int i =0; i < estimation.size(); ++i) {
+  for(unsigned int i =0; i < estimations.size(); ++i) {
 
   	VectorXd residual = estimations[i] - ground_truth[i];
 
@@ -39,7 +40,7 @@ VectorXd Tools::CalculateRMSE(const vector<VectorXd> &estimations,
   }
 
   //calculate the mean
-  rmse = rmse / esimations.size();
+  rmse = rmse / estimations.size();
   
   //calculate the squared root of the mean
   rmse = rmse.array().sqrt();
