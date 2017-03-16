@@ -29,7 +29,11 @@ Self-Driving Car Engineer Nanodegree Program
 
 Please (do your best to) stick to [Google's C++ style guide](https://google.github.io/styleguide/cppguide.html).
 
-## Evaluation
+## Lidar and Radar Fusion Pipline
+
+![Lidar and Radar Fusion Pipline](/img/sensor_fusion_pipeline.PNG)
+
+## Evaluation (RMSE)
 
 For Sample Data 1:
 
@@ -49,15 +53,18 @@ For Sample Data 2:
 |  vx  | 0.938841 |  0.93745 | 0.476509 |
 |  vy  |  1.16265 | 0.833882 | 0.810787 |
 
-
 ## Visulization
+
+
+
+
+## Conclusions
 
 
 
 ## Future Plans
 
-## Generating Additional Data
-
+### Generating Additional Data
 
 If you'd like to generate your own radar and lidar data, see the
 [utilities repo](https://github.com/udacity/CarND-Mercedes-SF-Utilities) for
