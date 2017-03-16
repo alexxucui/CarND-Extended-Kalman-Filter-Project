@@ -54,11 +54,11 @@ void KalmanFilter::UpdateEKF(const VectorXd &z) {
   //Calculate the Jacobian for H for linearization around x_ state
   //Convert the state in the polar coordiantes
 
-  double rho = sqrt(pow(x_[0], 2) + (pow(x_[1], 2)));
+  double rho = sqrt((x_[0] * x_[0]) + (x_[1] * x_[1]));
   double phi;
   double rho_dot;
 
-  if (x_[0] != 0 && rho > 0.001) {
+  if (x_[0] != 0) {
     phi= atan2(x_[1], x_[0]);
     rho_dot = ((x_[0] * x_[2] + x_[1] * x_[3]) / rho);
   } else {
