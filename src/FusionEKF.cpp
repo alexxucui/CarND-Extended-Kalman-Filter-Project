@@ -122,8 +122,6 @@ void FusionEKF::ProcessMeasurement(const MeasurementPackage &measurement_pack) {
      * Use noise_ax = 9 and noise_ay = 9 for your Q matrix.
    */
   //compute the time elsaped between the current and previous measurement
-  
-  if (measurement_pack.sensor_type_ == MeasurementPackage::LASER) {
 
   float dt = (measurement_pack.timestamp_ - previous_timestamp_) / 1000000.0;  //unit in seconds
   
@@ -170,7 +168,7 @@ void FusionEKF::ProcessMeasurement(const MeasurementPackage &measurement_pack) {
     ekf_.R_ = R_laser_;
     ekf_.Update(measurement_pack.raw_measurements_);
   }
-}
+  
   // print the output
   //cout << "x_ = " << ekf_.x_ << endl;
   //cout << "P_ = " << ekf_.P_ << endl;
