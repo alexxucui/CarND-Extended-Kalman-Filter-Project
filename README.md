@@ -61,7 +61,7 @@ R: Radar L: Laser
 Kalman Filter Esitmate - Measurement - Ground Truth
 
 Sample Data 1 - RL
-![](CarND-Extended-Kalman-Filter-Project/visualization/sample1 - LR.png")
+![](/visualization/sample1 - LR.png")
 
 Sample Data 1 - R
 ![](https://github.com/alexxucui/CarND-Extended-Kalman-Filter-Project/blob/master/visualization/sample1%20-%20R.png")
