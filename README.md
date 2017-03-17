@@ -53,7 +53,17 @@ For Sample Data 2:
 |  vx  | 0.938841 |  0.93745 | 0.476509 |
 |  vy  |  1.16265 | 0.833882 | 0.810787 |
 
+R: Radar L: Laser
 ## Visulization
+
+Sample Data 1 - RL
+![](/visualization/sample1 - LR.png)
+Sample Data 1 - R
+Sample Data 1 - L
+
+Sample Data 2 - RL
+Sample Data 2 - R
+Sample Data 2 - L
 
 
 
