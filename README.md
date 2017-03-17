@@ -20,7 +20,8 @@ Self-Driving Car Engineer Nanodegree Program
 
 1. Clone this repo.
 2. Make a build directory: `mkdir build && cd build`
-3. Compile: `cmake .. && make` (Windows: `cmake .. -G "Unix Makefiles" && make`)
+3. Compile: `cmake .. && make` 
+   For Windows, you might need to run `cmake .. -G "Unix Makefiles" && make`
 4. Run it: `./ExtendedKF path/to/input.txt path/to/output.txt`. You can find
    some sample inputs in 'data/'.
     - eg. `./ExtendedKF ../data/sample-laser-radar-measurement-data-1.txt output.txt`
@@ -55,8 +56,8 @@ For Sample Data 2:
 
 R: Radar L: Laser
 ## Visulization 
-
-`/visuliazation`
+Output data:   `/data`
+Images: `/visuliazation`
 
 Kalman Filter Esitmate - Measurement - Ground Truth
 
@@ -78,16 +79,17 @@ Sample Data 2 - R
 Sample Data 2 - L
 ![](https://github.com/alexxucui/CarND-Extended-Kalman-Filter-Project/blob/master/visualization/sample2%20-%20L.png)
 
-
 ## Conclusions
 
-
+* From RMSE table, we can conclude that sensor fusion using Radar and Lidar will produce the optimal results with samllest RMSE in all states. 
+* Comparing the estimations from only Radar or Lidar, Radar outperforms in speed measurement (vx, vy) while Lidar outperforms in the position measurement (px, py).
+* From the visulization, extended Kalman filter perform well on linear motion however doesn't predict accurately for sharp turns (non-linear motion) which we will implement an unscented Kalman filter in the next project.
 
 ## Future Plans
 
 ### Generating Additional Data
 
-If you'd like to generate your own radar and lidar data, see the
+Generate my own radar and lidar data, see the
 [utilities repo](https://github.com/udacity/CarND-Mercedes-SF-Utilities) for
 Matlab scripts that can generate additional data.
 
