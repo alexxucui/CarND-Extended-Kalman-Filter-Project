@@ -57,6 +57,7 @@ R: Radar L: Laser
 ## Visulization
 
 Sample Data 1 - RL
+
 <img src="https://github.com/alexxucui/CarND-Extended-Kalman-Filter-Project/blob/master/visualization/sample1%20-%20LR.png" width="700">
 
 
