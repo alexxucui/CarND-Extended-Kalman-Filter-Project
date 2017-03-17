@@ -57,7 +57,7 @@ R: Radar L: Laser
 ## Visulization
 
 Sample Data 1 - RL
-![](/visualization/sample1 - LR.png)
+![hello](/visualization/sample1 - LR.png)
 Sample Data 1 - R
 Sample Data 1 - L
 
