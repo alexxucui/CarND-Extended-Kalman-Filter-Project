@@ -56,19 +56,25 @@ For Sample Data 2:
 R: Radar L: Laser
 ## Visulization
 
+Kalman Filter Esitmate - Measurement - Ground Truth
+
 Sample Data 1 - RL
-
-<img src="https://github.com/alexxucui/CarND-Extended-Kalman-Filter-Project/blob/master/visualization/sample1%20-%20LR.png" width="700">
-
+![](https://github.com/alexxucui/CarND-Extended-Kalman-Filter-Project/blob/master/visualization/sample1%20-%20LR.png")
 
 Sample Data 1 - R
+![](https://github.com/alexxucui/CarND-Extended-Kalman-Filter-Project/blob/master/visualization/sample1%20-%20R.png")
+
 Sample Data 1 - L
+![](https://github.com/alexxucui/CarND-Extended-Kalman-Filter-Project/blob/master/visualization/sample1%20-%20L.png")
 
 Sample Data 2 - RL
+![](https://github.com/alexxucui/CarND-Extended-Kalman-Filter-Project/blob/master/visualization/sample2%20-%20LR.png")
+
 Sample Data 2 - R
+![](https://github.com/alexxucui/CarND-Extended-Kalman-Filter-Project/blob/master/visualization/sample2%20-%20R.png")
+
 Sample Data 2 - L
-
-
+![](https://github.com/alexxucui/CarND-Extended-Kalman-Filter-Project/blob/master/visualization/sample2%20-%20L.png")
 
 
 ## Conclusions
