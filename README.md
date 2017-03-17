@@ -58,7 +58,7 @@ R: Radar L: Laser
 
 Sample Data 1 - RL
 
-![hello](/visualization/sample1 - LR.png)
+![hello](https://github.com/alexxucui/CarND-Extended-Kalman-Filter-Project/blob/master/visualization/sample1%20-%20LR.png)
 
 
 Sample Data 1 - R
